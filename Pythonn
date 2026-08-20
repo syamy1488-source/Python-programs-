@@ -56,6 +56,32 @@ present_age=current_year-birth_year
 print("Present age:",present age)
 
 
+#program11: Bill calculator 
+rice_bag=int(input("Enter cost of rice bag:"))
+atta=int(input("Enter cost of atta:"))
+oil_can=int(input("Enter cost of oil can:"))
+total_bill=rice_bag+atta+oil_can
+print("Total bill:",total_bill)
+
+#program12: Salary calculator 
+Basic_salary=int(input("Enter salary:"))
+HRA=int(input("Enter hra:"))
+bonus=int(input("Enter bonus amount:"))
+leaves=int(input("Enter no of leaves:"))
+working_days=int(input("Enter no of working days:"))
+salary=Basic_salary+HRA+bonus
+perday_salary=salary/working_days
+deducted=perday_salary*leaves
+final_salary=salary-deducted
+print("Total salary:",final_salary)
+
+
+
+
+
+
+
+
 
 
 
