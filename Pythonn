@@ -1,6 +1,5 @@
 #program1- Hello World 🌎 
-new="Hello World"
-print(new)
+print("Hello World")
 
 #program2-Name and Age
 name="Chaitra"
