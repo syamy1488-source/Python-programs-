@@ -1,8 +1,61 @@
-#program1- Hello World 🌎 
+#program1: Hello World 🌎 
 print("Hello World")
 
-#program2-Name and Age
+#program2: Name and Age
 name="Chaitra"
 Age=18
 print(name)
 print(Age)
+
+#program3:Taking input from the user
+name=input ("Enter your name:")
+print ("Hello",name)
+
+#program4:Age
+age=int(input("Enter your age:")
+next year age=age+1
+print("Present age:",age)
+print("Next year age:",next year age)
+
+#program5: Student details 
+name=input("Enter your name:")
+age=int(input("Enter age:"))
+Branch=input("Enter input:")
+print("\n---Student Information---")
+print("Name:",name)
+print ("Age:",age)
+print("Branch:",branch)
+
+#program6: Addition of two numbers 
+first_num=int(input ("Enter  first number: "))
+second_num=int(input("Enter second number: "))
+add=first_num+second_num
+print(add)
+
+#program7: Square of a number 
+num=int(input("Enter numver: "))
+print("Square of a number: ",num**2)
+
+#program8: Area of Rectangle 
+Length=float(input("Enter length: "))
+width=int(input("Enter width:" "))
+Area=Length*width
+print(Area of Rectangle:",Area)
+
+#program9: Average of three subjects marks
+telugu=int(input("Enter marks:"))
+english=int(input("Enter marks:"))
+hindi=int(input("Enter marks:"))
+Avg=telugu+english+hindi/ 3
+print("Average marks:",Avg)
+
+#program10: Calculating age from birth year 
+birth_year=int(input("Enter birth year:"))
+current_year=2026
+present age=current_year-birth_year
+print("Present age:",present age)
+
+
+
+
+
