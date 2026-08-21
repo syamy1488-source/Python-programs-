@@ -75,6 +75,87 @@ deducted=perday_salary*leaves
 final_salary=salary-deducted
 print("Total salary:",final_salary)
 
+#program13: BMI calculator 
+weight=int(input("Enter weight in kg:"))
+height=int(input("Enter height in cm:"))
+bmi=weight/height**2
+print("BMI is:",bmi)
+
+#program14: Study hour analyzer 
+python=int(input("Enter python study tine:"))
+java=int(input("Enter java study time:"))
+maths=int(input("Enter maths study time:"))
+total_studytime=python+java+maths
+print("Total study time:",total_studytime)
+
+#program15: converting celsius into Fahrenheit 
+celsius=float(input("Enter temperature in celsius:))
+Fahrenheit=(ceslius*9/5)+32
+print("Enter temperature in Fahrenheit:{Fahrenheit: .2f}°F)
+
+#program16: Arithmetic Operators 
+num1=int(input("Enter number1:"))
+num2=int(input("Enter number2:"))
+print("Addition:",num1+num2)
+print("Subtraction:",num1-num2)
+print("Multiplication:",num1*num2)
+print("Division:",num1/num2)
+print("Floor Division:",num1//num2)
+print(print"Remainder:",num1%num2)
+
+#program17: Comparsion Operators 
+a=int(input("Enter value of a :"))
+b=int(input ("Enter value of b :"))
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+
+#program18: condition loops
+marks=int(input("Enter marks:"))
+if marks>=85:
+  print("Excellent Performance")
+elif marks>=70:
+  print("Average Performance")
+else
+  print("Bad Performance")
+
+#program19: Logical Operators
+day=input("Enter name of a day:")
+if day==Saturday|| day==Sunday:
+   print("weekend")
+else 
+   print("week days")
+
+#program20: Calculator 
+a=int(input("Enter value of a:"))
+b=float (input("Enter value of b:"))
+operator =input("Enter any operator:")
+if operator=='+'
+   print("Addition:",a+b)
+elif operator=='-'
+   print("Subtraction:",a-b)
+elif operator=='*'
+   print ("Multiplication:",a*b)
+elif operator=='/'
+   print("Division:",a/b)
+elif operator=='//'
+   print("Floor division:",a//b)
+else
+   print("Remainder:",a%b)
+
+
+
+  
+
+
+
+
+
+
+
 
 
 
